@@ -1,9 +1,9 @@
 # jhelper
-Java Helper
+Java Http Helper
 
-## usage
+## Usage
 
-Http Utility implements Antarix/MultiPartUtility.java
+Http Utility implements Antarix/MultiPartUtility
 https://gist.github.com/Antarix/a36faeaff3092b1fd977
 
 ### GetUtility
