@@ -1,8 +1,11 @@
 # jhelper
 Java Helper
 
-# usage
-## Http utility
+## usage
+
+Http Utility implements Antarix/MultiPartUtility.java
+https://gist.github.com/Antarix/a36faeaff3092b1fd977
+
 ### GetUtility
 
 ``` java
@@ -50,6 +53,3 @@ try {
     throw new Exception();
 }
 ```
-implements
-Antarix/MultiPartUtility.java
-https://gist.github.com/Antarix/a36faeaff3092b1fd977
