@@ -1,13 +1,13 @@
 # jhelper
 Java Helper
 
-# GetUtility usage
+## GetUtility usage
 
 ``` java
 List<Map<String, Object>> result = null;
 SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
-Map<String, String> headers = new LinkedHashMap<String, String>();
-Map<String, String> params = new LinkedHashMap<String, String>();
+Map<String, String> headers = new HashMap<String, String>();
+Map<String, String> params = new HashMap<String, String>();
 params.put("type", type);
 params.put("id", "2");
 params.put("date", formatter.format(new Date()));
@@ -29,10 +29,10 @@ try {
 }
 ```
 
-# PostUtility usage
+## PostUtility usage
 
 ``` java
-LinkedHashMap<String, String> params = new LinkedHashMap<String, String>();
+LinkedHashMap<String, String> params = new HashMap<String, String>();
 params.put("id", "2");
 params.put("date", formatter.format(new Date()));
 try {
