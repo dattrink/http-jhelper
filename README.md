@@ -1,7 +1,9 @@
 # jhelper
 Java Helper
 
-## GetUtility usage
+# usage
+## Http utility
+### GetUtility
 
 ``` java
 List<Map<String, Object>> result = null;
@@ -29,7 +31,7 @@ try {
 }
 ```
 
-## PostUtility usage
+### PostUtility
 
 ``` java
 LinkedHashMap<String, String> params = new HashMap<String, String>();
@@ -48,3 +50,6 @@ try {
     throw new Exception();
 }
 ```
+implements
+Antarix/MultiPartUtility.java
+https://gist.github.com/Antarix/a36faeaff3092b1fd977
