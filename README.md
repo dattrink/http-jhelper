@@ -1,4 +1,4 @@
-# jhelper
+# jhelper - Java HTTP Get - Post helper
 Java Http Helper
 
 ## Usage
